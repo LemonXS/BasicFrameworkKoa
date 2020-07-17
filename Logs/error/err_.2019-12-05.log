@@ -1,0 +1,1 @@
+[2019-12-05T16:29:20.057] [ERROR] error - 2019-12-5 16:29:20 { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Users\xusong\Desktop\KOA\Koa\views\logout.html' name: 'TemplateError' }

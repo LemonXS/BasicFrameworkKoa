@@ -1,0 +1,25 @@
+[2020-06-08T13:10:33.671] [ERROR] error - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1191:14)
+    --------------------
+    at Protocol._enqueue (D:\存储\koa_基础框架\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\存储\koa_基础框架\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\存储\koa_基础框架\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (D:\存储\koa_基础框架\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (D:\存储\koa_基础框架\Config\DB_MySql.js:19:18)
+    at new Promise (<anonymous>)
+    at exec (D:\存储\koa_基础框架\Config\DB_MySql.js:18:16)
+    at Object.user_login (D:\存储\koa_基础框架\app\controller\system\login.js:13:21)
+    at router.post (D:\存储\koa_基础框架\app\router\system\login.js:97:34)
+    at dispatch (D:\存储\koa_基础框架\node_modules\koa-compose\index.js:44:32)
+    at next (D:\存储\koa_基础框架\node_modules\koa-compose\index.js:45:18)
+    at D:\存储\koa_基础框架\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\存储\koa_基础框架\node_modules\koa-compose\index.js:44:32)
+    at D:\存储\koa_基础框架\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\存储\koa_基础框架\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\存储\koa_基础框架\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }

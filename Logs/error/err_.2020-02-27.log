@@ -1,0 +1,31 @@
+[2020-02-27T17:30:59.174] [ERROR] error - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:163:17)
+    at emitNone (events.js:106:13)
+    at Handshake.emit (events.js:208:7)
+    at Handshake._onTimeout (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+    --------------------
+    at Protocol._enqueue (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:34:18)
+    at new Promise (<anonymous>)
+    at query (C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:33:16)
+    at Object.user_login (C:\Work\WEB\dzpj_web\app\controller\system\login.js:11:21)
+    at router.post (C:\Work\WEB\dzpj_web\app\router\system\login.js:95:34)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2020-02-27T19:34:34.698] [ERROR] error - { Error: read ECONNRESET
+    at TCP.onread (net.js:622:25) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }

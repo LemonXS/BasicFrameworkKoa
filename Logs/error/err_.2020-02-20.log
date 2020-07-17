@@ -1,0 +1,73 @@
+[2020-02-20T13:34:45.034] [ERROR] error - TypeError: undefined is not a promise
+    at Promise (<anonymous>)
+    at skzp_Body1_ljdz (C:\Work\WEB\dzpj_web\app\controller\kpgl\skzp.js:41:12)
+    at router.post (C:\Work\WEB\dzpj_web\app\router\kpgl\skzp.js:43:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-20T13:36:10.389] [ERROR] error - TypeError: undefined is not a promise
+    at Promise (<anonymous>)
+    at skzp_Body1_ljdz (C:\Work\WEB\dzpj_web\app\controller\kpgl\skzp.js:41:12)
+    at router.post (C:\Work\WEB\dzpj_web\app\router\kpgl\skzp.js:45:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-20T13:36:47.688] [ERROR] error - TypeError: undefined is not a promise
+    at Promise (<anonymous>)
+    at skzp_Body1_ljdz (C:\Work\WEB\dzpj_web\app\controller\kpgl\skzp.js:41:12)
+    at router.post (C:\Work\WEB\dzpj_web\app\router\kpgl\skzp.js:45:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-20T13:37:43.872] [ERROR] error - TypeError: undefined is not a promise
+    at Promise (<anonymous>)
+    at skzp_Body1_ljdz (C:\Work\WEB\dzpj_web\app\controller\kpgl\skzp.js:42:12)
+    at router.post (C:\Work\WEB\dzpj_web\app\router\kpgl\skzp.js:45:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-20T18:49:20.625] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-20T18:51:10.626] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-20T18:51:16.592] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-20T19:14:02.145] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-20T19:17:15.304] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080

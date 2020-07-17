@@ -1,0 +1,268 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>XXXX</title>
+    <meta name="description" content="XXXX">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="/public/layui/css/layui.css" />
+    <link rel="stylesheet" href="/public/iconfont/iconfont.css" media="all" />
+    <style>
+        * {
+            padding: 0px;
+            border: none;
+            margin: 0px;
+        }
+
+        body {
+            font-size: 14px;
+            /* Font-size:62.5%; */
+            font-weight: normal;
+            font-family: "微软雅黑";
+            background-color: #E9ECF3;
+            /* box-shadow:none; */
+        }
+
+        /* 同意模块的样式设置 */
+        .layui-card {
+            padding: 0;
+            position: relative;
+            margin: 5px 10px 10px 10px;
+            background-color: white;
+            border-radius: 10px;
+            -webkit-box-shadow: #c7c7c7 5px 5px 10px;
+            -moz-box-shadow: #c7c7c7 5px 5px 10px;
+             box-shadow: #c7c7c7 5px 5px 10px;
+        }
+        .SourceStyle{
+            
+        }
+        .SourceTitle {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* div显示和隐藏 */
+        .divHide {
+            display: none;
+        }
+
+        .divShow {
+            display: block;
+        }
+
+        /* hr样式 */
+        hr {
+            height: 1px;
+            margin: 3px 0;
+            border: 0;
+            clear: both;
+        }
+
+        /* 按钮选择样式事件 */
+        .btncheck {
+            background-color: #D8EBF2;
+            /* background-color:#23A8F7; */
+        }
+
+        .btnuncheck {
+            background-color: #ffffff;
+        }
+
+
+
+
+        #divzzc { 
+        position: relative; ;
+        z-index: 999; 
+        width: 100%; 
+        height:480px; 
+        top:0; 
+        left: 0px; 
+        /* filter: alpha(opacity=10); 
+        opacity: 0.1;  */
+        overflow: hidden; 
+        background:rgba(0, 0, 0, 0.103);
+        /* background:rgba(0, 0, 0, 0.041); */
+        } 
+
+        .zzcloading{
+            position: relative;
+            top:47%;
+            z-index: 1000; 
+            width: 80px;
+            height: 40px;
+            margin: 0 auto;
+            opacity: 1; 
+        }
+        .zzcloading span{
+            display: inline-block;
+            width: 8px;
+            height: 100%;
+            border-radius: 4px;
+            background: #009688;
+            -webkit-animation: load 1s ease infinite;
+        }
+        @-webkit-keyframes load{
+            0%,100%{
+                height: 40px;
+                background: #009688;
+            }
+            50%{
+                height: 70px;
+                margin: -15px 0;
+                background: rgb(3, 181, 240);
+            }
+        }
+        .zzcloading span:nth-child(2){
+            -webkit-animation-delay:0.2s;
+        }
+        .zzcloading span:nth-child(3){
+            -webkit-animation-delay:0.4s;
+        }
+        .zzcloading span:nth-child(4){
+            -webkit-animation-delay:0.6s;
+        }
+        .zzcloading span:nth-child(5){
+            -webkit-animation-delay:0.8s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layui-card" class="SourceStyle">
+        <div class="layui-card-body">
+            <div class="SourceTitle">
+                <!-- 隐藏开关 -->
+                <div id="div_spanbox1" style="float: right;height:38px;line-height:30px;z-index: 99">
+                    <span><img class="unflod" src="/public/images/material/unfold.png"></span>
+                </div>
+                <!-- 下载按钮 -->
+                <div id="div_spandown1" class="" style="float: right;height:38px;line-height:30px;z-index: 99;padding:0px 10px;">
+                    <span ><img src="/public/images/material/download.png" title="下载" style="display: inline-block;"></span>
+                    <span class="layui-icon layui-icon-loading layui-anim layui-anim-rotate layui-anim-loop  div_spandown_load" style="display:none;margin-left: -30px;"></span>
+                </div>
+                <!-- 标题 -->
+                <div style="width:100%;height:35px;line-height: 35px;">
+                    <span>模块名</span>
+                </div>
+                <hr>
+            </div>
+            <!-- 【内容】 -->
+            <div id="div_module1">
+                    <!-- <div id="M1Tool" style="margin-bottom:5px;" class="layui-form">
+                        <div style="padding:5px 0;">
+                            <div  class="layui-inline"  > 
+                            </div>
+                        </div>
+                    </div> -->
+                <button type="button" class="layui-btn " id="btn_cx">查询&nbsp;<span style="display:none;" class=" layui-icon layui-icon-loading  layui-anim layui-anim-rotate layui-anim-loop"></span></button>
+                <p>  <input type="button" value="开启遮罩层" id="btnshow" class="layui-btn"></p>
+                <p>  <input type="button" value="关闭遮罩层" id="btnclose" class="layui-btn"></p>
+            </div>
+        </div>
+    </div>
+     <div id="divzzc" style="display:none;" >
+            <div class="zzcloading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+     </div> 
+     <!-- <div class="layui-inline">
+            <label class="layui-form-label"><strong>票据种类：</strong> </label>
+            <div class="layui-input-inline">
+           
+            </div> 
+    </div> -->
+
+</body>
+<script type="text/javascript" src="/public/javascripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="/public/javascripts/axios.min.js"></script>
+<script type="text/javascript" src="/public/layui/layui.js"></script>
+<script type="text/javascript">
+    //开关点击切换事件
+    $("#div_spanbox1").click(function () {
+        if ($(this).find("img").hasClass("unflod")) {
+            $(this).find("img").removeClass("unflod").addClass("flod");
+            $("#div_module1").removeClass("divShow").addClass("divHide");
+            $(this).find("img").attr('src', '/public/images/material/fold.png');
+        } else {
+            $(this).find("img").removeClass("flod").addClass("unflod");
+            $("#div_module1").removeClass("divHide").addClass("divShow");
+            $(this).find("img").attr('src', '/public/images/material/unfold.png');
+        }
+    })
+      //下载开关
+    $("#div_spandown1").click(function(){
+        layui.use(['layer'], function () {
+                  var layer = layui.layer;
+                  if(!$("#div_spandown1").hasClass("unclick")){
+                    $("#div_spandown1").addClass("unclick");
+                    $("#div_spandown1").find('.div_spandown_load').show();
+                    console.log("【我是下载测试】");
+                  }else{
+                      layer.msg("正在下载,请稍等");
+                  }
+        });
+      
+            window.setTimeout(function(){
+                $("#div_spandown1").removeClass("unclick");
+                $("#div_spandown1").find('.div_spandown_load').hide();
+            },10000);
+    })
+
+
+
+    $("#btn_cx").click(function(){
+        // if($(this).hasClass("layui-btn-disabled")){
+
+        // }else{
+
+        // }
+        $("#btn_cx").addClass("layui-btn-disabled");
+        $("#btn_cx").find("span").show();
+
+        window.setTimeout(function(){
+         console.log("【点击被触发 3秒后恢复】");
+         $("#btn_cx").removeClass("layui-btn-disabled");
+         $("#btn_cx").find("span").hide();
+        },3000);
+    });
+
+    $("#btnshow").click(function(){
+        $("#divzzc").show();
+    })
+    $("#btnclose").click(function(){
+        $("#divzzc").hide();
+    })
+    
+//     axios({
+//     method:'get',
+//     url:'http://bit.ly/2mTM3nY',
+//     responseType: 'json',
+// //     data: {
+// //     firstName: 'Fred',
+// //     lastName: 'Flintstone'
+// //   },
+// //  params: {},
+   
+//     })
+//   .then(function (obj) {
+//     console.log(obj);
+//   }).catch(function (err) {
+//     console.log(err);
+//   })
+//   .then(function () {
+//     // 总执行
+//   });  
+</script>
+
+</html>

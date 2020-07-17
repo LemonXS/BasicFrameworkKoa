@@ -1,0 +1,4 @@
+[2019-12-06T14:39:44.576] [INFO] info - 【FP】--【stock.usable.get】: {"message":{"place_code":"001"}}
+[2019-12-06T15:39:34.779] [INFO] info - 【FP】--【invoice.get】: {"message":{"serial_number":"20191204144323743"}}
+[2019-12-06T16:25:10.928] [INFO] info - 【FP】--【invoice.detail.bySN.get】: {"message":{"serial_number":"20191204144323743"}}
+[2019-12-06T16:50:16.554] [INFO] info - 【FP】--【uploadrecord.get】: {"message":{"place_code":"001"}}

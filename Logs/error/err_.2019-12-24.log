@@ -1,0 +1,300 @@
+[2019-12-24T17:35:31.446] [ERROR] error - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?,?,?,?,?,?,?,?,?,?)' at line 1
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'?,?,?,?,?,?,?,?,?,?,?,?)\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'call p_ywxx_dkpj_s12(?,?,?,?,?,?,?,?,?,?,?,?)' }
+[2019-12-24T17:37:13.006] [ERROR] error - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?,?,?,?,?,?,?,?,?,?)' at line 1
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'?,?,?,?,?,?,?,?,?,?,?,?)\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'call p_ywxx_dkpj_s12(?,?,?,?,?,?,?,?,?,?,?,?)' }
+[2019-12-24T17:38:42.420] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at query.then (D:\WORK\DZPJ_WEB\dzpj_web\app\controller\kpgl\skzp.js:23:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-12-24T17:42:59.461] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }
+[2019-12-24T17:45:11.350] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }
+[2019-12-24T17:45:34.191] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }
+[2019-12-24T17:47:03.614] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }
+[2019-12-24T17:48:58.863] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }
+[2019-12-24T18:32:27.398] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }

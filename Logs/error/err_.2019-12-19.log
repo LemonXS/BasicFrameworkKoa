@@ -1,0 +1,58 @@
+[2019-12-19T13:18:50.646] [ERROR] error - ReferenceError: interfaceTool is not defined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\phcxpjmx.js:25:5)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-19T13:19:23.845] [ERROR] error - ReferenceError: interfaceTool is not defined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\phcxpjmx.js:25:5)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-19T13:19:43.723] [ERROR] error - ReferenceError: interfaceTool is not defined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\phcxpjmx.js:25:5)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-19T14:15:04.275] [ERROR] error - 【Post-Error-post】Error: read ECONNRESET
+[2019-12-19T14:15:57.492] [ERROR] error - 【Post-Error-post】null
+[2019-12-19T14:17:41.341] [ERROR] error - 【Post-Error-post】Error: read ECONNRESET
+[2019-12-19T14:18:44.046] [ERROR] error - 【Post-Error-post】Error: read ECONNRESET
+[2019-12-19T14:19:41.329] [ERROR] error - 【Post-Error-post】Error: read ECONNRESET
+[2019-12-19T14:20:36.636] [ERROR] error - 【Post-Error-post】Error: read ECONNRESET
+[2019-12-19T14:21:07.553] [ERROR] error - 【Post-Error-post】Error: read ECONNRESET

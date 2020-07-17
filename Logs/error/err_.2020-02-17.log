@@ -1,0 +1,110 @@
+[2020-02-17T10:08:10.680] [ERROR] error - { Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+    at Query.Sequence._packetToError (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:38:32
+    at Ping.onOperationComplete (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: 'Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation \'=\'',
+  sqlState: 'HY000',
+  index: 0,
+  sql: ' call p_user_login(\'local\',\'admins\',\'E10ADC3949BA59ABBE56E057F20F883E\') ' }
+[2020-02-17T10:08:12.711] [ERROR] error - { Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation '='
+    at Query.Sequence._packetToError (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:38:32
+    at Ping.onOperationComplete (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: 'Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8_unicode_ci,IMPLICIT) for operation \'=\'',
+  sqlState: 'HY000',
+  index: 0,
+  sql: ' call p_user_login(\'local\',\'admins\',\'E10ADC3949BA59ABBE56E057F20F883E\') ' }
+[2020-02-17T10:25:17.811] [ERROR] error - { Error: read ECONNRESET
+    at TCP.onread (net.js:622:25) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+[2020-02-17T13:49:34.436] [ERROR] error - ReferenceError: rows is not defined
+    at Promise (C:\Work\WEB\dzpj_web\app\controller\xxcx\pjxx.js:115:37)
+    at new Promise (<anonymous>)
+    at pjxx_Body1 (C:\Work\WEB\dzpj_web\app\controller\xxcx\pjxx.js:111:24)
+    at router.get (C:\Work\WEB\dzpj_web\app\router\xxcx\pjxx.js:109:10)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+[2020-02-17T13:50:02.505] [ERROR] error - ReferenceError: rows is not defined
+    at Promise (C:\Work\WEB\dzpj_web\app\controller\xxcx\pjxx.js:115:37)
+    at new Promise (<anonymous>)
+    at pjxx_Body1 (C:\Work\WEB\dzpj_web\app\controller\xxcx\pjxx.js:111:24)
+    at router.get (C:\Work\WEB\dzpj_web\app\router\xxcx\pjxx.js:110:10)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)

@@ -1,0 +1,2 @@
+[2019-12-09T13:23:08.777] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\pjgl\myProfile.html' name: 'TemplateError' }
+[2019-12-09T14:24:21.735] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp.html' name: 'TemplateError' }

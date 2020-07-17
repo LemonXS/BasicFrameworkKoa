@@ -1,0 +1,9 @@
+[2019-12-09T08:53:04.911] [INFO] info - 【FP】--【basic.bills.get】: {"message":{"place_code":"001"}}
+[2019-12-09T09:01:11.376] [INFO] info - 【FP】--【invoice.detail.byno.get】: {"message":{"bill_batch_code":"31010119","bill_no":"9020027015","random":"d5fd20"}}
+[2019-12-09T09:01:55.711] [INFO] info - 【FP】--【invoice.detail.byno.get】: {"message":{"bill_batch_code":"31010119","bill_no":"9020027015","random":"d5fd20"}}
+[2019-12-09T09:09:21.629] [INFO] info - 【FP】--【invoice.detail.byno.get】: {"message":{"bill_batch_code":"31010119","bill_no":"9020027015","random":"d5fd20"}}
+[2019-12-09T09:09:44.495] [INFO] info - 【FP】--【basic.bills.get】: {"message":{"place_code":"001"}}
+[2019-12-09T09:28:10.442] [INFO] info - 【FP】--【invoice.detail.byno.get】: {"message":{"bill_batch_code":"310101144","bill_no":"9020027015","random":"d5fd20"}}
+[2019-12-09T09:30:24.043] [INFO] info - 【FP】--【invoice.detail.byno.get】: {"message":{"bill_batch_code":"31010119","bill_no":"9020027015","random":"d5fd20"}}
+[2019-12-09T09:30:33.494] [INFO] info - 【FP】--【invoice.detail.byno.get】: {"message":{"bill_batch_code":"31010119ss","bill_no":"9020027015","random":"d5fd20"}}
+[2019-12-09T09:54:49.004] [INFO] info - 【FP】--【stock.usable.get】: {"message":{"place_code":"001"}}

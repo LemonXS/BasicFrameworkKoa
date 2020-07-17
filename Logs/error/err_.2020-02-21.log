@@ -1,0 +1,34 @@
+[2020-02-21T15:48:50.733] [ERROR] error - ReferenceError: ctx is not defined
+    at Promise (C:\Work\WEB\dzpj_web\app\controller\kpgl\jzqkcx.js:49:9)
+    at new Promise (<anonymous>)
+    at jzqkcx_Body1 (C:\Work\WEB\dzpj_web\app\controller\kpgl\jzqkcx.js:10:12)
+    at router.get (C:\Work\WEB\dzpj_web\app\router\kpgl\jzqkcx.js:23:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+[2020-02-21T15:48:51.105] [ERROR] error - ReferenceError: ctx is not defined
+    at Promise (C:\Work\WEB\dzpj_web\app\controller\kpgl\jzqkcx.js:49:9)
+    at new Promise (<anonymous>)
+    at jzqkcx_Body1 (C:\Work\WEB\dzpj_web\app\controller\kpgl\jzqkcx.js:10:12)
+    at router.get (C:\Work\WEB\dzpj_web\app\router\kpgl\jzqkcx.js:23:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)

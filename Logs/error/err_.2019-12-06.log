@@ -1,0 +1,65 @@
+[2019-12-06T10:03:46.908] [ERROR] error - 2019-12-6 10:03:46 Error: error:0606506D:digital envelope routines:EVP_DecryptFinal_ex:wrong final block length
+    at Decipheriv.final (crypto.js:183:26)
+    at Object.aesutil.decryption (D:\FPPT_KOA\FPPT_KOA\util\safety.js:53:32)
+    at router.get (D:\FPPT_KOA\FPPT_KOA\app\controller\main.js:29:35)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at send.then.done (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+[2019-12-06T10:04:23.514] [ERROR] error - 2019-12-6 10:04:23 Error: error:0606506D:digital envelope routines:EVP_DecryptFinal_ex:wrong final block length
+    at Decipheriv.final (crypto.js:183:26)
+    at Object.aesutil.decryption (D:\FPPT_KOA\FPPT_KOA\util\safety.js:53:32)
+    at router.get (D:\FPPT_KOA\FPPT_KOA\app\controller\main.js:29:35)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at send.then.done (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+[2019-12-06T10:10:34.338] [ERROR] error - 2019-12-6 10:10:34 { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\logout.html' name: 'TemplateError' }
+[2019-12-06T10:11:04.240] [ERROR] error - 2019-12-6 10:11:04 { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\login.html' name: 'TemplateError' }
+[2019-12-06T10:11:05.299] [ERROR] error - 2019-12-6 10:11:05 { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\login.html' name: 'TemplateError' }
+[2019-12-06T10:11:06.271] [ERROR] error - 2019-12-6 10:11:06 { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\login.html' name: 'TemplateError' }
+[2019-12-06T10:19:36.335] [ERROR] error - 2019-12-6 10:19:36 ReferenceError: data is not defined
+    at invoice_config.post_invoice.then.catch (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\hqpjxxlb.js:19:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-12-06T10:20:34.517] [ERROR] error - 2019-12-6 10:20:34 ReferenceError: data is not defined
+    at invoice_config.post_invoice.then.catch (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\hqpjxxlb.js:19:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-12-06T10:22:00.883] [ERROR] error - 2019-12-6 10:22:00 ReferenceError: data is not defined
+    at invoice_config.post_invoice.then.catch (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\hqpjxxlb.js:19:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-12-06T10:29:01.993] [ERROR] error - 2019-12-6 10:29:01 【Post-Error-post】Error: connect ETIMEDOUT 61.152.146.52:9955
+[2019-12-06T10:30:49.313] [ERROR] error - 2019-12-6 10:30:49 【Post-Error-post】Error: connect ETIMEDOUT 61.152.146.52:9955
+[2019-12-06T17:08:20.150] [ERROR] error - ReferenceError: req is not defined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\api\invoice\tfqkcx.js:16:18)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)

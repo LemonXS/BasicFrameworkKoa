@@ -1,0 +1,119 @@
+[2019-12-13T09:40:43.612] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html' name: 'TemplateError' }
+[2019-12-13T09:41:22.893] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html' name: 'TemplateError' }
+[2019-12-13T09:42:40.261] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:290:27
+    288|             elem:$('#example')[0],
+    289|             url:'example_request_url',
+ >> 290|             template_val:'{{d.consignee}}',
+    291|             template_txt:'{{d.consignee}} <span class = \'layui-badgelayui-bg-gray \'> {{d.phone_number}} </ span>',
+    292|             onselect:function(resp){ 
+    293|                 
+
+RuntimeError: Cannot read property 'consignee' of undefined name: 'TemplateError' }
+[2019-12-13T09:42:59.182] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:290:30
+    288|     //         elem:$('#example')[0],
+    289|     //         url:'example_request_url',
+ >> 290|     //         template_val:'{{d.consignee}}',
+    291|     //         template_txt:'{{d.consignee}} <span class = \'layui-badgelayui-bg-gray \'> {{d.phone_number}} </ span>',
+    292|     //         onselect:function(resp){ 
+    293|                 
+
+RuntimeError: Cannot read property 'consignee' of undefined name: 'TemplateError' }
+[2019-12-13T09:43:00.272] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:290:30
+    288|     //         elem:$('#example')[0],
+    289|     //         url:'example_request_url',
+ >> 290|     //         template_val:'{{d.consignee}}',
+    291|     //         template_txt:'{{d.consignee}} <span class = \'layui-badgelayui-bg-gray \'> {{d.phone_number}} </ span>',
+    292|     //         onselect:function(resp){ 
+    293|                 
+
+RuntimeError: Cannot read property 'consignee' of undefined name: 'TemplateError' }
+[2019-12-13T09:52:26.661] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:290:27
+    288|             elem:$('#kp_pjdm')[0],
+    289|             url:'/skzp_inp',
+ >> 290|             template_val:'{{d.id}}',
+    291|             template_txt:'{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.msg}} </ span>',
+    292|             onselect:function(resp){ 
+    293|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T09:52:51.277] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:290:28
+    288|             elem:$('#kp_pjdm')[0],
+    289|             url:'/skzp_inp',
+ >> 290|             template_val:'${{d.id}}',
+    291|             template_txt:'{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.msg}} </ span>',
+    292|             onselect:function(resp){ 
+    293|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:04:18.771] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:27
+    294|             elem:$('#wwwwwwwwwww'),
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:'{{d.id}}',
+    297|             template_txt:'{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.id}}</ span>',
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:04:38.623] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:27
+    294|             elem:$('#wwwwwwwwwww'),
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:`{{d.id}}`,
+    297|             template_txt:`{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.id}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:04:40.245] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:27
+    294|             elem:$('#wwwwwwwwwww'),
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:`{{d.id}}`,
+    297|             template_txt:`{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.id}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:04:49.030] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:28
+    294|             elem:$('#wwwwwwwwwww'),
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:`${{d.id}}`,
+    297|             template_txt:`{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.id}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:04:59.076] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:297:27
+    295|             url:'/skzp_inp',
+    296|             template_val:`${{id}}`,
+ >> 297|             template_txt:`{{d.msg}} <span class = \'layui-badgelayui-bg-gray \'> {{d.id}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+    300|             } 
+
+RuntimeError: Cannot read property 'msg' of undefined name: 'TemplateError' }
+[2019-12-13T10:13:15.299] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:27
+    294|             elem:$('#wwwwwwwwwww')[0],
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:`{{d.id}}`,
+    297|             template_txt:`{{d.id}} <span class = \'layui-badgelayui-bg-gray \'>{{d.msg}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:13:16.653] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:27
+    294|             elem:$('#wwwwwwwwwww')[0],
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:`{{d.id}}`,
+    297|             template_txt:`{{d.id}} <span class = \'layui-badgelayui-bg-gray \'>{{d.msg}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }
+[2019-12-13T10:13:17.148] [ERROR] error - { TemplateError: D:\FPPT_KOA\FPPT_KOA\views\kpgl\skzp_BF4.html:296:27
+    294|             elem:$('#wwwwwwwwwww')[0],
+    295|             url:'/skzp_inp',
+ >> 296|             template_val:`{{d.id}}`,
+    297|             template_txt:`{{d.id}} <span class = \'layui-badgelayui-bg-gray \'>{{d.msg}}</ span>`,
+    298|             onselect:function(resp){ 
+    299|                 
+
+RuntimeError: Cannot read property 'id' of undefined name: 'TemplateError' }

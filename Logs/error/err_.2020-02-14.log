@@ -1,0 +1,371 @@
+[2020-02-14T09:42:56.004] [ERROR] error - { Error: ER_HOST_NOT_PRIVILEGED: Host '10.1.254.118' is not allowed to connect to this MySQL server
+    at Handshake.Sequence._packetToError (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Handshake.js:124:18)
+    at Protocol._parsePacket (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:34:18)
+    at new Promise (<anonymous>)
+    at query (C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:33:16)
+    at system_menu (C:\Work\WEB\dzpj_web\app\controller\system\menu.js:20:16)
+    at router.get (C:\Work\WEB\dzpj_web\app\router\system\menu.js:30:26)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+  code: 'ER_HOST_NOT_PRIVILEGED',
+  errno: 1130,
+  sqlMessage: 'Host \'10.1.254.118\' is not allowed to connect to this MySQL server',
+  sqlState: undefined,
+  fatal: true }
+[2020-02-14T14:19:55.143] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:84:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:20:49.860] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:85:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:21:57.483] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:101:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:06.965] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:08.162] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:08.556] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:09.193] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:09.729] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:10.258] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:26:10.762] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:31:36.139] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:121:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:32:11.195] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:121:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:32:26.894] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:121:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:14.881] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:15.608] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:15.778] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:15.967] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:16.167] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:18.305] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:19.737] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:19.959] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:20.157] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:20.353] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:20.553] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:25.837] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:26.965] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:33:30.013] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:119:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:21.928] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:22.841] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:23.033] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:23.219] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:23.415] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:23.606] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:23.826] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:24.195] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:24.791] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:37:25.267] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:23.172] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:23.357] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:23.674] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:23.927] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:24.161] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:24.210] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:24.357] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:24.556] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:24.771] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:24.912] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:25.057] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:25.262] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:25.460] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:25.615] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:25.753] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:25.943] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:26.157] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:40:26.307] [ERROR] error - TypeError: option.join is not a function
+    at system_role_menu_filterchild (C:\Work\WEB\dzpj_web\app\controller\system\role.js:107:83)
+    at system_role_menu_del.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:121:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:52:22.746] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_add (C:\Work\WEB\dzpj_web\app\controller\system\role.js:101:1)
+    at system_role_menu_filterchild.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:85:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:55:36.323] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_add (c:\Work\WEB\dzpj_web\app\controller\system\role.js:101:1)
+    at system_role_menu_filterchild.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:85:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T14:59:21.698] [ERROR] error - ReferenceError: rows_filter is not defined
+    at system_role_menu_add (c:\Work\WEB\dzpj_web\app\controller\system\role.js:101:1)
+    at system_role_menu_filterchild.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:85:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T15:00:09.724] [ERROR] error - TypeError: Cannot read property 'id' of undefined
+    at system_role_menu_add (c:\Work\WEB\dzpj_web\app\controller\system\role.js:103:33)
+    at system_role_menu_filterchild.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:85:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T15:02:49.504] [ERROR] error - TypeError: Cannot read property 'id' of undefined
+    at system_role_menu_add (c:\Work\WEB\dzpj_web\app\controller\system\role.js:103:33)
+    at system_role_menu_filterchild.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:85:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T15:14:35.661] [ERROR] error - ReferenceError: rolerid is not defined
+    at system_role_menu_add (c:\Work\WEB\dzpj_web\app\controller\system\role.js:109:32)
+    at system_role_menu_filterchild.then (c:\Work\WEB\dzpj_web\app\router\system\role.js:85:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T15:55:11.410] [ERROR] error - TypeError: system_menu is not a function
+    at router.post (C:\Work\WEB\dzpj_web\app\router\system\role.js:138:12)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Work\WEB\dzpj_web\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-14T15:56:31.942] [ERROR] error - TypeError: system_menu is not a function
+    at router.post (C:\Work\WEB\dzpj_web\app\router\system\role.js:143:26)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Work\WEB\dzpj_web\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-14T16:39:44.398] [ERROR] error - ReferenceError: key is not defined
+    at system_role_menu_add (C:\Work\WEB\dzpj_web\app\controller\system\role.js:130:24)
+    at system_role_menu_filterchild.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:161:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T16:41:16.961] [ERROR] error - ReferenceError: key is not defined
+    at system_role_menu_add (C:\Work\WEB\dzpj_web\app\controller\system\role.js:130:24)
+    at system_role_menu_filterchild.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:161:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T16:44:40.357] [ERROR] error - ReferenceError: key is not defined
+    at system_role_menu_add (C:\Work\WEB\dzpj_web\app\controller\system\role.js:130:24)
+    at system_role_menu_filterchild.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:156:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-02-14T16:46:30.674] [ERROR] error - ReferenceError: key is not defined
+    at system_role_menu_add (C:\Work\WEB\dzpj_web\app\controller\system\role.js:131:24)
+    at system_role_menu_filterchild.then (C:\Work\WEB\dzpj_web\app\router\system\role.js:156:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)

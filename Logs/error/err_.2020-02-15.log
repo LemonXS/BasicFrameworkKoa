@@ -1,0 +1,4 @@
+[2020-02-15T14:12:45.017] [ERROR] error - ReferenceError: data is not defined
+    at router.post (C:\Work\WEB\dzpj_web\app\router\user\users.js:131:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)

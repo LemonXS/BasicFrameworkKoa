@@ -1,0 +1,5 @@
+[2020-02-25T17:15:20.189] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Work\WEB\dzpj_web\views\user\login.html' name: 'TemplateError' }
+[2020-02-25T18:23:17.159] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Work\WEB\dzpj_web\views\user\login.html' name: 'TemplateError' }
+[2020-02-25T18:23:18.525] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Work\WEB\dzpj_web\views\user\login.html' name: 'TemplateError' }
+[2020-02-25T18:23:21.788] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Work\WEB\dzpj_web\views\user\login.html' name: 'TemplateError' }
+[2020-02-25T19:25:13.078] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Work\WEB\dzpj_web\views\user\login.html' name: 'TemplateError' }

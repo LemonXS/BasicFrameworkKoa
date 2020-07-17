@@ -1,0 +1,48 @@
+[2020-05-07T21:36:21.718] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:21.806] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:22.517] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:22.576] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:23.040] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:23.096] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:29.401] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:29.472] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:32.355] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:36:32.435] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:37:30.812] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2020-05-07T21:37:30.958] [ERROR] error - TypeError: Cannot read property 'res' of undefined
+    at Object.user_Token (C:\Users\xusong\Desktop\koa_基础框架\koa_基础框架\app\controller\system\login.js:70:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)

@@ -1,0 +1,157 @@
+[2020-02-18T09:52:36.200] [ERROR] error - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:163:17)
+    at emitNone (events.js:106:13)
+    at Handshake.emit (events.js:208:7)
+    at Handshake._onTimeout (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+    --------------------
+    at Protocol._enqueue (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (C:\Work\WEB\dzpj_web\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:34:18)
+    at new Promise (<anonymous>)
+    at query (C:\Work\WEB\dzpj_web\Config\MySqlConfig.js:33:16)
+    at Object.user_login (C:\Work\WEB\dzpj_web\app\controller\system\login.js:11:21)
+    at router.post (C:\Work\WEB\dzpj_web\app\router\system\login.js:95:34)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2020-02-18T10:16:01.847] [ERROR] error - ReferenceError: kpcx_Tool is not defined
+    at router.get (C:\Work\WEB\dzpj_web\app\router\xxcx\kpcx.js:15:5)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T10:17:14.263] [ERROR] error - ReferenceError: kpcx_Tool is not defined
+    at router.get (C:\Work\WEB\dzpj_web\app\router\xxcx\kpcx.js:15:5)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T10:18:00.647] [ERROR] error - ReferenceError: kpcx_Tool is not defined
+    at router.get (C:\Work\WEB\dzpj_web\app\router\xxcx\kpcx.js:15:5)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T10:41:18.516] [ERROR] error - ReferenceError: yyzh is not defined
+    at router.get (C:\Work\WEB\dzpj_web\app\router\xxcx\kpcx.js:47:22)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T13:10:10.919] [ERROR] error - ReferenceError: kpcx_Body1 is not defined
+    at router.get (C:\Work\WEB\dzpj_web\app\router\kpgl\skhp.js:34:5)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T13:11:15.179] [ERROR] error - ReferenceError: kpcx_Body1 is not defined
+    at router.get (C:\Work\WEB\dzpj_web\app\router\kpgl\skhp.js:34:5)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T13:30:18.057] [ERROR] error - TypeError: Cannot read property 'query' of undefined
+    at router.post (C:\Work\WEB\dzpj_web\app\router\kpgl\skhp.js:42:25)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Work\WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Work\WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2020-02-18T14:05:45.547] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-18T14:07:04.749] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-18T14:10:28.917] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-18T14:27:42.628] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:8080
+[2020-02-18T15:55:53.518] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Work\WEB\dzpj_web\views\user\login.html' name: 'TemplateError' }
+[2020-02-18T16:03:22.223] [ERROR] error - ReferenceError: row is not defined
+    at dzpj_hzkp_Func.then (C:\Work\WEB\dzpj_web\app\router\kpgl\skhp.js:78:52)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)

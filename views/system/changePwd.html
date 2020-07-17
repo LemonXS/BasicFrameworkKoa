@@ -1,0 +1,185 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>修改密码</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="icon" type="image/png" href="/public/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/public/assets/i/app-icon72x72@2x.png">
+    <link rel="stylesheet" href="/public/assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/public/assets/css/admin.css">
+    <link rel="stylesheet" href="/public/layui/css/layui.css" />
+
+
+
+    <style>
+        * {
+            padding: 0px;
+            border: none;
+            margin: 0px;
+        }
+
+        .layui-form-label {
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="width:100%;padding:5px;">
+        <form class="layui-form" id="formid" action="" lay-filter="formid">
+            <div class="layui-form-item">
+                <label class="layui-form-label">当前用户</label>
+                <div class="layui-input-inline">
+                    <!-- <input type="hidden" id="userid" name="userid" value=""> -->
+                    <input type="text" id="username" name="username" value="<%=username%>" class="layui-input" disabled>
+                </div>
+
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">请输入原密码</label>
+                <div class="layui-input-inline">
+                    <input type="password" id="oldpwd" name="oldpwd" lay-verify="pass" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">请填写6到18位密码</div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">输入新密码</label>
+                <div class="layui-input-inline">
+                    <input type="password" id="pwd" name="pwd" lay-verify="pwd" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">请填写6到18位密码</div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">再次输入新密码</label>
+                <div class="layui-input-inline">
+                    <input type="password" id="repwd" name="repwd" lay-verify="repwd" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">请填写6到18位密码</div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="btn_submit">立即提交</button>
+                    <button type="button" id="resetid" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+
+
+
+
+    </div>
+    <script type="text/javascript" src="/public/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/assets/js/app.js"></script>
+    <script type="text/javascript" src="/public/assets/js/amazeui.min.js"></script>
+    <script type="text/javascript" src="/public/layui/layui.js"></script>
+    <script>
+        layui.use(['form', 'layedit', 'laydate'], function () {
+            var form = layui.form
+                , layer = layui.layer
+                , layedit = layui.layedit
+                , laydate = layui.laydate;
+            //自定义验证规则
+            form.verify({
+                pass: [
+                    /^[\S]{6,18}$/
+                    , '密码必须6到18位，且不能出现空格'
+                ],
+                pwd: [
+                    /^[\S]{6,18}$/
+                    , '密码必须6到18位，且不能出现空格'
+                ],
+                repwd: function (value, item) { //value：表单的值、item：表单的DOM对象
+                    var pwdtxt = $("#pwd").val();
+                    var repwdtxt = $("#repwd").val();
+                    if (pwdtxt != repwdtxt) {
+                        return '两次密码不一致';
+                    }
+                }
+                , content: function (value) {
+                    layedit.sync(editIndex);
+                }
+            });
+
+
+
+            //监听提交
+            form.on('submit(btn_submit)', function (data) {
+                var username = data.field.username;
+                var oldpwd = data.field.oldpwd;
+                var pwd = data.field.pwd;
+                $.ajax({
+                    url: "/changePwd",
+                    dataType: "json",
+                    type: "post",
+                    data: {
+                        // "userid":userid,
+                        "username": username,
+                        "oldpwd": oldpwd,
+                        "pwd": pwd
+                    },
+                    success: function (result) {
+                        if (result) {
+                            //   layer.msg("修改成功！");
+//墨绿深蓝风
+layer.alert('密码发生修改，需要重新登录！', {
+  skin: 'layui-layer-molv' //样式类名
+  ,closeBtn: 0
+}, function(){
+    window.location.href="/logout";
+});
+
+
+                          
+                        } else {
+                            //   layer.msg("修改失败！");
+                            layer.alert('修改失败！', { icon: 5 });
+                        }
+                    },
+                    error: function (err) {
+                        //   layer.msg("修改失败！");
+                        layer.alert('修改失败！', { icon: 5 });
+                    }
+                })
+                return false;
+
+
+
+                // layer.alert(JSON.stringify(data.field), {
+                //   title: '最终的提交信息'
+                // })
+
+
+            });
+
+            //表单初始赋值
+            form.val('formid', {
+                "oldpwd": "",
+                "pwd": "",
+                "repwd": ""
+            })
+
+            $("#resetid").click(function () {
+                form.val('formid', {
+                    "oldpwd": "",
+                    "pwd": "",
+                    "repwd": ""
+                })
+            })
+        });
+
+
+    </script>
+</body>
+
+</html>

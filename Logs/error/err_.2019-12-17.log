@@ -1,0 +1,437 @@
+[2019-12-17T08:53:07.578] [ERROR] error - TypeError: result.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:55:14)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T08:54:02.642] [ERROR] error - TypeError: S_menu.system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:53:29)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T08:59:23.509] [ERROR] error - TypeError: S_menu.system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:55:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:02:32.210] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:04:22.242] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:05:53.276] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:05:53.996] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:05:56.986] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:06:37.080] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:09:30.681] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:10:21.029] [ERROR] error - TypeError: system_menu_status.then is not a function
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:60:4)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:12:26.335] [ERROR] error - TypeError: Cannot read property 'then' of undefined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:58:22)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:12:50.836] [ERROR] error - TypeError: Cannot read property 'then' of undefined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:58:24)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T09:24:53.052] [ERROR] error - TypeError: Cannot read property 'then' of undefined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:57:17)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T10:03:14.779] [ERROR] error - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\FPPT_KOA\FPPT_KOA\Config\MySqlConfig.js:29:32
+    at Ping.onOperationComplete (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'?\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'update system_menu set `status`=59 where id=?' }
+[2019-12-17T10:03:47.749] [ERROR] error - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\FPPT_KOA\FPPT_KOA\Config\MySqlConfig.js:29:32
+    at Ping.onOperationComplete (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'?\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'update system_menu set `status`=59 where id=?' }
+[2019-12-17T10:06:06.358] [ERROR] error - ReferenceError: id is not defined
+    at system_menu_del (D:\FPPT_KOA\FPPT_KOA\app\controller\system\menu.js:61:32)
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:61:10)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+[2019-12-17T11:08:18.537] [ERROR] error - ReferenceError: system_menu_add is not defined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:74:2)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-17T11:09:35.766] [ERROR] error - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order) values(9,'我是测试','','/123','0',0,1)' at line 1
+    at Query.Sequence._packetToError (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\FPPT_KOA\FPPT_KOA\Config\MySqlConfig.js:29:32
+    at Ping.onOperationComplete (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'order) values(9,\'我是测试\',\'\',\'/123\',\'0\',0,1)\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'insert into system_menu(parent_id,title,icon,path,status,type,order) values(9,\'我是测试\',\'\',\'/123\',\'0\',0,1)' }
+[2019-12-17T11:11:27.127] [ERROR] error - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''parent_id','title','icon','path','status','type','order') values(9,'我是测' at line 1
+    at Query.Sequence._packetToError (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:200:25)
+    at D:\FPPT_KOA\FPPT_KOA\Config\MySqlConfig.js:29:32
+    at Ping.onOperationComplete (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\FPPT_KOA\FPPT_KOA\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'parent_id\',\'title\',\'icon\',\'path\',\'status\',\'type\',\'order\') values(9,\'我是测\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'insert into system_menu(\'parent_id\',\'title\',\'icon\',\'path\',\'status\',\'type\',\'order\') values(9,\'我是测试\',\'\',\'/123\',\'1\',0,1)' }
+[2019-12-17T13:58:16.285] [ERROR] error - ReferenceError: system_menu_edit is not defined
+    at router.post (D:\FPPT_KOA\FPPT_KOA\app\router\system\menu.js:89:2)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)

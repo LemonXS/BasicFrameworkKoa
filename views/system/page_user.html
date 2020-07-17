@@ -1,0 +1,676 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>用户操作</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="/public/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/public/assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <!-- <link rel="stylesheet" href="/public/stylesheets/bootstrap.css" /> -->
+    <!-- <link rel="stylesheet" href="/public/stylesheets//animate.min.css" > -->
+    <link rel="stylesheet" href="/public/layui/css/layui.css" />
+    <style>
+        * {
+            padding: 0px;
+            border: none;
+            margin: 0px;
+        }
+
+        .layui-input {
+            width: 200px;
+        }
+
+        .layui-form-item {
+            margin-bottom: 10px;
+            clear: both;
+        }
+        .layui-form-label {
+    float: left;
+    display: block;
+    padding: 9px 15px;
+    width: 100px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+.layui-tab-content{
+    padding:0;
+}
+
+.layui-table, .layui-table-view{
+    margin: 0;
+}
+.layui-form-checkbox i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d2d2d2;
+    border-left: none;
+    border-radius: 0 2px 2px 0;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<!-- class="layui-form" action="" -->
+
+<body>
+    <section class="am-panel am-panel-default" style="">
+        <div style="padding:5px;">
+            <div   style="width:100%;"  class="layui-tab layui-tab-card">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">用户管理</li>
+                    <li>用户添加</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <div id="div_table" style="width:100%;">
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+                        <div style="width: 500px;height:400px;border: 1px solid #868686;margin: 0 auto;">
+                            <div style="width:100%;height:100%;padding-top:10px;margin-top: 50px;margin-left: 40px;" id="div_adduser">
+                                <div class="layui-form-item"><label class="layui-form-label">昵称</label>
+                                    <div class="layui-input-block"><input type="text" id="Anname" name="titlename_edit"
+                                            lay-verify="title" autocomplete="off" placeholder="请输入昵称" class="layui-input"
+                                            value=""></div>
+                                </div>
+                                <div class="layui-form-item"><label class="layui-form-label">账号</label>
+                                    <div class="layui-input-block"><input type="text" id="Alname" name="titleicon_edit"
+                                            lay-verify="title" autocomplete="off" placeholder="请输入账号" class="layui-input"
+                                            value=""></div>
+                                </div>
+                                <div class="layui-form-item"><label class="layui-form-label">密码</label>
+                                    <div class="layui-input-block"><input type="password" id="Apwd" name="titlepath_edit"
+                                            lay-verify="title" autocomplete="off" placeholder="请输入密码" class="layui-input"
+                                            value=""></div>
+                                </div>
+                                <div class="layui-form-item"><label class="layui-form-label">启/禁</label>
+                                    <div class="layui-input-block" style="padding-top: 7px;">启&nbsp;&nbsp;<input type="radio"
+                                            id="Aradio_true" name="Aradio" value="1" title="启" checked="">&nbsp;&nbsp;&nbsp;&nbsp;
+                                        禁&nbsp;&nbsp;<input type="radio" name="Aradio" value="0" title="禁" id="Aradio_false"></div>
+                                </div>
+                                <div class="layui-form-item"><label class="layui-form-label"></label>
+                                    <div class="layui-input-block" style="padding-top: 7px;">
+                                        <input type="button" class="layui-btn  layui-btn-normal" id="btn_adduser" value="提交">
+                                        <input type="button" class="layui-btn" id="btn_clear" value="重置">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- <script type="text/javascript" src="/javascript/bootstrap.js"></script> -->
+    <!-- <script type="text/javascript" src="/layui/layui.js"></script> -->
+    <!-- <script type="text/javascript" src="/LayTreeTable/js/treetable.js"></script> -->
+    <!-- <script type="text/javascript" src="/javascript/bootstrap-notify.min.js"></script>
+    <script type="text/javascript" src="/pageWay/mystyle.js"></script> -->
+    <!-- <script type="text/javascript" src="/public/javascripts/jquery-2.1.1.min.js"></script> -->
+    <script type="text/javascript" src="/public/javascripts/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/public/layui/layui.js"></script>
+    <script type="text/html" id="tabletool">
+        <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="roleedit">角色维护</a>
+        <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            LoadShow();
+        }
+
+        function LoadShow() {
+            $("#div_table").empty();
+            $("#div_table").html(
+                '<table class="layui-table layui-form" lay-filter="user_table" id="user_table"></table>');
+            layui.use(['form', 'layer', 'element', "table"], function () {
+                var element = layui.element;
+                var layer = layui.layer;
+                var table = layui.table;
+                var form = layui.form;
+                table.render({
+                    id: "tablerload",
+                    elem: '#user_table',
+                    url: '/page_user_content', //数据接口
+                    method: 'post', //如果无需自定义HTTP类型，可不加该参数
+                    page: true, //开启分页
+                    request: {
+                        pageName: 'page', //页码的参数名称，默认：page
+                        limitName: 'limit' //每页数据量的参数名，默认：limit
+                    }, //如果无需自定义请求参数，可不加该参数
+                    where: {
+                    
+                    },
+                    limit: 20,
+                    limits: [20, 40, 100, 200],
+                    text: {
+                        none: '暂无相关数据！' //默认无数据
+                    },
+                    // toolbar:true,//开启筛选按钮
+                    // defaultToolbar: ['filter'],
+                    cols: [
+                        [ //表头
+                            {
+                                type: 'numbers',
+                                title: '序号',
+                                width: 70,
+                                sort: true,
+                            }, {
+                                field: 'username',
+                                title: '用户名',
+                                width: 140
+                            }, {
+                                field: 'loginname',
+                                title: '登录名',
+                                width: 140,
+                            }, {
+                                field: 'password',
+                                title: '登陆密码',
+                                width: 220
+                            }, {
+                                field: 'status',
+                                title: '禁/启',
+                                width: 95,
+                                templet: function (item) {
+                                    // console.log(item)
+                                    if (item.status == "1") {
+                                        return ' <input type="checkbox" checked="" name="open" lay-skin="switch" lay-filter="status" ukey="' +
+                                            item.id + '" lay-text="开启|关闭">'
+                                    } else {
+                                        return ' <input type="checkbox" name="open" lay-skin="switch" lay-filter="status" ukey="' +
+                                            item.id + '" lay-text="开启|关闭">'
+                                    }
+                                }
+                            }, {
+                                field: 'updatetime',
+                                title: '修改时间',
+                                width: 170,
+                                sort: true
+                            }, {
+                                field: 'createtime',
+                                title: '创建时间',
+                                width: 170,
+                                sort: true,
+                                // hide:true
+                            },
+                            {
+                                title: '操作',
+                                minWidth: 190,
+                                align: 'center',
+                                fixed:"right",
+                                toolbar: '#tabletool'
+                            }
+                        ]
+                    ],
+                    done: function (res) {
+                        if (res.msg == false) {
+                            layer.msg('加载失败', {
+                                icon: 5
+                            });
+                        }
+
+                    },
+                });
+
+                //监听工具条
+                table.on('tool(user_table)', function (obj) {
+                    // var keyid = obj.data.id;
+                    // var nikename = obj.data.username;
+                    // var loginname = obj.data.loginname;
+                    // var password = obj.data.password;
+                    // var createtime = obj.data.createtime;
+                    // var updatetime = obj.data.updatetime;
+                    // var status = obj.data.status!= null ? obj.data.status : 0;
+                    if (obj.event === 'roleedit') {
+                        // console.log("【角色维护】"+obj.data.id);
+                        let ukey = obj.data.id;
+                        $.ajax({
+                            url: '/page_user_roleedit',
+                            data: {
+                                ukey: ukey,
+                            },
+                            dataType: "json",
+                            type: "post",
+                            success: function (result) {
+                                console.log(result)
+                                if (result.success == true) {
+                                    let rolelist = result.data.rolelist;
+                                    let userrole = result.data.userrole;
+                                    let roleMaintainhtml = "";
+                                    let userrolearr = [];
+                                    for (var y in userrole) {
+                                        userrolearr.push(userrole[y].rid);
+                                    }
+                                    userrolearr = uniq(userrolearr);
+                                    for (var h in rolelist) {
+                                        if (userrolearr.indexOf(rolelist[h].id) >= 0) {
+                                            roleMaintainhtml +=
+                                                '<div  class="layui-col-sm3" ><input type="checkbox" lay-filter="usercheckbox" ekey="' +
+                                                ukey + '" value="' +
+                                                rolelist[h].id + '"  title="' +
+                                                rolelist[h].name +
+                                                '" checked>' +
+                                                '</div>';
+                                        } else {
+                                            roleMaintainhtml +=
+                                                '<div  class="layui-col-sm3" ><input   type="checkbox" lay-filter="usercheckbox" ekey="' +
+                                                ukey + '" value="' +
+                                                rolelist[h].id + '"  title="' +
+                                                rolelist[h].name +
+                                                '">' + '</div>';
+                                        }
+                                    }
+
+
+                                    // class="layui-form" action="" 
+                                    let contentHtmlMaintainstr =
+                                        '<form class="layui-form" id="form_roleMaintain"><div class="layui-row " id="div_roleMaintain">' +
+                                        roleMaintainhtml + '</div></form>';
+                                    layer.open({
+                                        id: "userMaintain",
+                                        type: 1,
+                                        title: ['角色维护', 'font-size:18px;'],
+                                        skin: 'layui-layer-demo', //样式类名
+                                        //   closeBtn: 0, //不显示关闭按钮
+                                        area: ['400px', '320px'], //宽高
+                                        anim: 2,
+                                        shadeClose: false, //是否开启遮罩关闭
+                                        content: contentHtmlMaintainstr,
+                                        success: function (layero, index) {
+                                            form.render();
+                                            //  var contentHtmlMaintainstr =
+                                            // '<form ><div class="layui-row " id="div_roleMaintain">' +
+                                            //  roleMaintainhtml + '</div></form>';
+                                            //     $("#div_contentHtmlMaintain").empty();
+                                            //     $("#div_contentHtmlMaintain").html(contentHtmlMaintainstr);
+                                        },
+                                        end: function () {
+                                            $("#form_roleMaintain").remove();
+                                        }
+
+                                    })
+                                } else {
+                                    layer.msg('显示失败', {
+                                        icon: 6
+                                    });
+                                }
+                            },
+                            error: function (err) {
+                                console.log("异常：" + JSON.stringify(err))
+                            }
+                        })
+                    }
+                    //点击【【编辑】触发事件
+                    else if (obj.event === 'edit') {
+                        let edit_keyid = obj.data.id;
+                        let edit_nikename = obj.data.username;
+                        let edit_loginname = obj.data.loginname;
+                        let edit_password = obj.data.password;
+                        let edit_createtime = obj.data.createtime;
+                        let edit_updatetime = obj.data.updatetime;
+                        let edit_status = obj.data.status != null ? obj.data.status : 0;
+                        // console.log("【编辑】");
+                        let radiohtml = ""
+                        if (edit_status == 1) {
+                            radiohtml =
+                                '  <div class="layui-form-item"><label class="layui-form-label">启/禁</label><div class="layui-input-block">启&nbsp;&nbsp;<input type="radio" name="Eradio" value="1" title="启" checked="">&nbsp;&nbsp;&nbsp;&nbsp;  禁&nbsp;&nbsp;<input type="radio" name="Eradio" value="0" title="禁" ></div></div>';
+                        } else {
+                            radiohtml =
+                                '  <div class="layui-form-item"><label class="layui-form-label">启/禁</label><div class="layui-input-block">启&nbsp;&nbsp;<input type="radio" name="Eradio" value="1" title="启" >&nbsp;&nbsp;&nbsp;&nbsp;  禁&nbsp;&nbsp;<input type="radio" name="Eradio" value="0" title="禁" checked="" ></div></div>';
+                        }
+                        let contentHtml =
+                            '<div style="width:100%;height:100%;padding-top:10px;" id="div_edit">' +
+                            '  <div class="layui-form-item"><label class="layui-form-label">昵称</label><div class="layui-input-block"><input type="text" id="Enname" name="titlename_edit" lay-verify="title" autocomplete="off" placeholder="请输入昵称" class="layui-input" value="' +
+                            edit_nikename + '"></div> </div>' +
+                            '  <div class="layui-form-item"><label class="layui-form-label">账号</label><div class="layui-input-block"><input type="text" id="Elname" name="titleicon_edit" lay-verify="title" autocomplete="off" placeholder="请输入账号"  disabled="true"  class="layui-input layui-btn-disabled" value="' +
+                            edit_loginname + '"></div></div>' +
+                            '  <div class="layui-form-item"><label class="layui-form-label">密码</label><div class="layui-input-block"><input type="text" id="Epwd" name="titlepath_edit" lay-verify="title" autocomplete="off" placeholder="请输入密码" class="layui-input" value="' +
+                            edit_password + '"></div></div>' +
+                            radiohtml +
+                            '</div>';
+                        layer.open({
+                            id: "useropenedit",
+                            type: 1,
+                            title: ['编辑', 'font-size:18px;'],
+                            skin: 'layui-layer-demo', //样式类名
+                            //   closeBtn: 0, //不显示关闭按钮
+                            area: ['400px', '320px'], //宽高
+                            anim: 2,
+                            shadeClose: false, //是否开启遮罩关闭
+                            content: contentHtml,
+                            btn: ['提交', '取消'],
+                            btnAlign: 'c',
+                            yes: function (index, layero) {
+                                let Enname = $("#Enname").val().trim();
+                                let Elname = $("#Elname").val().trim();
+                                let Epwd = $("#Epwd").val().trim();
+                                let Eradio = $("input[name='Eradio']:checked").val();
+                                if (Enname != "" && Elname.length >= 2 && Elname != "" && Epwd != "" && Epwd.length >=6) {
+                                    //ajax请求
+                                    $.ajax({
+                                        url: '/page_user_edit',
+                                        data: {
+                                            ukey: edit_keyid,
+                                            nname: Enname,
+                                            lname: Elname,
+                                            pword: Epwd,
+                                            radio: Eradio,
+                                            // oldnname: edit_nikename,
+                                            // oldpword: edit_password,
+                                            // oldlname: edit_loginname
+                                        },
+                                        dataType: "json",
+                                        type: "post",
+                                        success: function (result) {
+                                            // console.log("------【提交】-------")
+                                            // var TJ_Enname = $("#Enname").val();
+                                            // var TJ_Elname = $("#Elname").val();
+                                            // var TJ_Epwd = $("#Epwd").val();
+                                            // var TJ_Eradio = $(
+                                            //     "input[name='Eradio']:checked"
+                                            // ).val();
+                                            //    console.log(TJ_Enname);
+                                            //    console.log(TJ_Elname);
+                                            //    console.log(TJ_Epwd);
+                                            //    console.log(TJ_Eradio);
+                                            if (result.success == true) {
+                                                table.reload('tablerload', {
+                                                    page: {
+                                                        curr: 1 //重新从第 1 页开始
+                                                    },
+                                                    where: {
+                                                    }
+                                                });
+                                                layer.msg(result.msg)
+                                                layer.close(index); //如果设定了yes回调，需进行手工关闭
+                                            }  else { 
+                                                layer.msg(result.msg, {
+                                                    icon: 5
+                                                })
+                                                layer.close(index); //如果设定了yes回调，需进行手工关闭
+                                            }
+                                        },
+                                        error: function (err) {
+                                            console.log(
+                                                "操作异常：" +
+                                                err);
+                                            layer.msg(
+                                                '修改异常', {
+                                                    icon: 5
+                                                });
+                                            layer.close(
+                                                index); //如果设定了yes回调，需进行手工关闭
+                                        }
+                                    })
+                                } else {
+                                    layer.msg('值不能为空值,密码', {
+                                        icon: 0
+                                    });
+                                }
+                            },
+                            btn2: function (index, layero) {
+                                $("#Enname").val("");
+                                $("#Elname").val("");
+                                $("#Epwd").val("");
+                            }
+                        });
+                    }
+                    //点击【删除】触发事件
+                    else if (obj.event === 'del') {
+                        var keyiddel = obj.data.id;
+
+                        // console.log("【删除】");
+                        layer.confirm('确认删除此用户吗?', {
+                            icon: 3,
+                            title: '提示'
+                        }, function (index) {
+                            $.ajax({
+                                url: "/page_user_del",
+                                data: {
+                                    ukey: keyiddel
+                                },
+                                dataType: "json",
+                                type: "post",
+                                success: function (result) {
+                                    if (result.success == true) {
+                                        layer.msg(result.msg);
+                                        table.reload('tablerload', {
+                                            page: {
+                                                curr: 1 //重新从第 1 页开始
+                                            },
+                                            where: {
+                                            }
+                                        });
+                                    } else {
+                                        layer.msg(result.msg, {
+                                            icon: 5
+                                        });
+                                    }
+                                },
+                                error: function (err) {
+                                    console.log("ajax异常：" + JSON.stringify(
+                                        err));
+                                    layer.msg('删除异常', {
+                                        icon: 5
+                                    });
+                                }
+                            })
+
+                        });
+                    }
+                });
+
+                form.on('checkbox(usercheckbox)', function (data) {
+                    // console.log(data.elem); //得到checkbox原始DOM对象
+                    // console.log(data.elem.checked); //是否被选中，true或者false
+                    // console.log(data.value); //复选框value值，也可以通过data.elem.value得到
+                    // console.log( data.elem.getAttribute('title'));
+                    // console.log( data.elem.getAttribute('ekey'));
+                    var tf = data.elem.checked;
+                    var ekey = data.elem.getAttribute('ekey');
+                    var rkey = data.value;
+                    var rtitle = data.elem.getAttribute('title');
+                    
+                    console.log("------------------------------------------");
+                    console.log(tf)
+                    console.log(ekey)
+                    console.log(rkey)
+                    console.log(rtitle)
+
+                    $.ajax({
+                        url: "/page_user_role_add_del",
+                        data: {
+                            tf: tf,
+                            rkey: rkey,
+                            ekey: ekey
+                        },
+                        type: "post",
+                        dataType: "json",
+                        success: function (result) {
+                            if (tf) {
+                                if (result.success == true) {
+                                    layer.msg('权限添加成功', {
+                                        icon: 6
+                                    });
+                                } else {
+                                    layer.msg('权限添加失败', {
+                                        icon: 5
+                                    });
+                                }
+                            } else {
+                                if (result.success == true) {
+                                    layer.msg('权限删除成功', {
+                                        icon: 6
+                                    });
+                                } else {
+                                    layer.msg('权限删除失败', {
+                                        icon: 5
+                                    });
+                                }
+                            }
+
+                        },
+                        error: function (err) {
+                            console.log("err:" + JSON.stringify(err));
+                            layer.msg('操作异常', {
+                                icon: 6
+                            });
+                        }
+                    })
+
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+                //开关切换触发事件
+                form.on('switch(status)', function (data) {
+                    let status_checked = this.checked == true ? '1' : '0';
+                    let ukey = this.getAttribute("ukey");
+
+                    $.ajax({
+                        url: "/page_user_status",
+                        type: "post",
+                        dataType: "json",
+                        data: {
+                            u_status: status_checked,
+                            u_key: ukey
+                        },
+                        success: function (result) {
+                            if (result.success == true) {
+                                layer.msg('更新成功')
+                                table.reload('tablerload', {
+                                    page: {
+                                        curr: 1 //重新从第 1 页开始
+                                    },
+                                    where: {
+                                       
+                                    }
+                                });
+                            } else {
+                                layer.msg('更新失败', {
+                                    icon: 5
+                                })
+                            }
+                        },
+                        error: function (err) {
+                            layer.msg('更新异常', {
+                                    icon: 5
+                                })
+                        }
+                    })
+                })
+
+                //添加用户的提交
+                $("#btn_adduser").click(function () {
+                    var Anname = $("#Anname").val().trim();
+                    var Alname = $("#Alname").val().trim();
+                    var Apwd = $("#Apwd").val().trim();
+                    var Aradio = $("input[name='Aradio']:checked").val();
+
+                    if (Anname != "" && Alname.length >= 6 && Alname != "" && Apwd != "" && Apwd.length >=
+                        6) {
+
+                        $.ajax({
+                            url: '/page_user_add',
+                            data: {
+                                nname: Anname,
+                                lname: Alname,
+                                pword: Apwd,
+                                radio: Aradio,
+                            },
+                            dataType: "json",
+                            type: "post",
+                            success: function (result) {
+                                if (result.success == true) {
+                                    table.reload('tablerload', {
+                                        page: {
+                                            curr: 1 //重新从第 1 页开始
+                                        },
+                                        where: {
+                                            nickname: "",
+                                            loginname: "",
+                                            createtime: "",
+                                            edittime: ""
+                                        }
+                                    });
+                                    $("#Anname").val("");
+                                    $("#Alname").val("");
+                                    $("#Apwd").val("");
+                                    $("#Aradio_true").attr('checked', 'checked');
+                                    layer.msg('注册成功', {
+                                        icon: 6
+                                    })
+                                }else {
+                                    layer.msg(result.msg, {
+                                        icon: 5
+                                    })
+                                }
+                            },
+                            error: function (err) {
+                                console.log("操作异常：" +err);
+                                layer.msg('注册失败', {icon: 5});
+                            }
+                        })
+
+                    } else {
+                        layer.msg('文本不能为空,登录名,密码长度最少6位', {
+                            icon: 0
+                        });
+                    }
+                })
+                //添加用户的重置
+                $("#btn_clear").click(function () {
+                    $("#Anname").val("");
+                    $("#Alname").val("");
+                    $("#Apwd").val("");
+                    // var checkboxarr = [];
+                    // $("input[name='usercheckbox']:checked").each(function () {
+                    //     checkboxarr.push($(this).val());
+                    // });
+                    // console.log(checkboxarr)
+
+                })
+
+            });
+        }
+
+        function uniq(array){
+    var temp = []; //一个新的临时数组
+    for(var i = 0; i < array.length; i++){
+        if(temp.indexOf(array[i]) == -1){
+            temp.push(array[i]);
+        }
+    }
+    return temp;
+}
+        
+     </script>
+</body>
+
+</html>

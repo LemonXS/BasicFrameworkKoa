@@ -1,0 +1,232 @@
+[2020-02-29T19:50:41.772] [ERROR] error - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:163:17)
+    at emitNone (events.js:106:13)
+    at Handshake.emit (events.js:208:7)
+    at Handshake._onTimeout (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:35:18)
+    at new Promise (<anonymous>)
+    at exec (C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:34:16)
+    at Object.user_login (C:\Users\86176\Desktop\dzpj_web\app\controller\system\login.js:13:21)
+    at router.post (C:\Users\86176\Desktop\dzpj_web\app\router\system\login.js:95:34)
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86176\Desktop\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2020-02-29T19:50:48.573] [ERROR] error - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:163:17)
+    at emitNone (events.js:106:13)
+    at Handshake.emit (events.js:208:7)
+    at Handshake._onTimeout (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:35:18)
+    at new Promise (<anonymous>)
+    at exec (C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:34:16)
+    at Object.user_login (C:\Users\86176\Desktop\dzpj_web\app\controller\system\login.js:13:21)
+    at router.post (C:\Users\86176\Desktop\dzpj_web\app\router\system\login.js:95:34)
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\86176\Desktop\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\86176\Desktop\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\86176\Desktop\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2020-02-29T19:52:28.226] [ERROR] error - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:163:17)
+    at emitNone (events.js:106:13)
+    at Handshake.emit (events.js:208:7)
+    at Handshake._onTimeout (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:118:18)
+    at Pool.getConnection (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:35:18)
+    at new Promise (<anonymous>)
+    at exec (C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:34:16)
+    at Object.user_Token (C:\Users\86176\Desktop\dzpj_web\app\controller\system\login.js:67:22)
+    at app.use (C:\Users\86176\Desktop\dzpj_web\app.js:146:40)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2020-02-29T20:56:07.296] [ERROR] error - { Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='
+    at Query.Sequence._packetToError (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:23:32
+    at Handshake.onConnect (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Handshake._callback (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Handshake.Sequence.end (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: 'Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation \'=\'',
+  sqlState: 'HY000',
+  index: 0,
+  sql: ' call p_user_login(\'local\',\'admins\',\'E10ADC3949BA59ABBE56E057F20F883E\') ' }
+[2020-02-29T20:56:44.012] [ERROR] error - { Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='
+    at Query.Sequence._packetToError (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:23:32
+    at Ping.onOperationComplete (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: 'Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation \'=\'',
+  sqlState: 'HY000',
+  index: 0,
+  sql: ' call p_user_login(\'local\',\'admins\',\'E10ADC3949BA59ABBE56E057F20F883E\') ' }
+[2020-02-29T20:57:22.951] [ERROR] error - { Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='
+    at Query.Sequence._packetToError (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:23:32
+    at Ping.onOperationComplete (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: 'Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation \'=\'',
+  sqlState: 'HY000',
+  index: 0,
+  sql: ' call p_user_login(\'local\',\'admins\',\'E10ADC3949BA59ABBE56E057F20F883E\') ' }
+[2020-02-29T20:59:17.563] [ERROR] error - { Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='
+    at Query.Sequence._packetToError (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at C:\Users\86176\Desktop\dzpj_web\Config\DB_MySql.js:23:32
+    at Handshake.onConnect (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Handshake._callback (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Handshake.Sequence.end (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\86176\Desktop\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: 'Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation \'=\'',
+  sqlState: 'HY000',
+  index: 0,
+  sql: ' call p_user_login(\'local\',\'admins\',\'E10ADC3949BA59ABBE56E057F20F883E\') ' }
+[2020-02-29T21:16:12.427] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\Users\86176\Desktop\dzpj_web\views\toolflowers.html' name: 'TemplateError' }
+[2020-02-29T21:16:23.631] [ERROR] error - { TemplateError: template not found: ENOENT: no such file or directory, open 'C:\tool\flowers.html' name: 'TemplateError' }

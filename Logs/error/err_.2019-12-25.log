@@ -1,0 +1,75 @@
+[2019-12-25T09:18:10.829] [ERROR] error - { Error: ER_DUP_ENTRY: Duplicate entry '2019122412345678' for key 'qq_serial_number'
+    at Query.Sequence._packetToError (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+    --------------------
+    at Protocol._enqueue (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:200:25)
+    at d:\WORK\DZPJ_WEB\dzpj_web\Config\MySqlConfig_jkfw.js:34:32
+    at Ping.onOperationComplete (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at Ping._callback (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:468:16)
+    at Ping.Sequence.end (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (d:\WORK\DZPJ_WEB\dzpj_web\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'2019122412345678\' for key \'qq_serial_number\'',
+  sqlState: '23000',
+  index: 2,
+  sql: 'call p_ywxx_dkpj_s12(\'A32448BC6CF9427ABD19613C50157EF4\',\'2019122412345678\',\'购买方名称\',\'购买方税号\',1,20,\'04\',1,\'[{\\"ywlsh\\":\\"1234567\\",\\"mzh\\":\\"20191224001\\",\\"jzrq\\":\\"2019/12/01\\",\\"yljglx\\":\\"民营\\",\\"yblx\\":\\"城镇\\",\\"ybbh\\":\\"421302199700000000\\",\\"xb\\":\\"男\\",\\"ybtcjjzf\\":\\"120\\",\\"qtzf\\":\\"\\",\\"grzhzf\\":\\"\\",\\"grxjzf\\":\\"\\",\\"grzfu\\":\\"\\",\\"grzfei\\":\\"\\"}]\',\'[{\\"item_code\\":\\"332001\\",\\"item_std_code\\":\\"332001000\\",\\"unit\\":\\"元\\",\\"std\\":20,\\"number\\":1,\\"amt\\":20}]\',\'[{\\"notic_infos_ls\\":{\\"notic_email\\":0,\\"email_address\\":\\"840391755@qq.com\\",\\"email_text\\":\\"测试发票内容\\",\\"tel_number\\":\\"17601303466\\",\\"tel_text\\":\\"测试短信内容\\"}}]\',NULL)' }
+[2019-12-25T11:00:50.505] [ERROR] error - 【Post-Error-post】Error: Invalid URI "/?function%20(obj)%20%7B%0D%0A%20%20%20%20let%20arr=[];%0D%0A%20%20%20%20for%20(let%20k%20in%20obj)%20%7B%0D%0A%20%20%20%20%20%20arr.push(k+%22=%22+obj[k])%0D%0A%20%20%20%20%7D%0D%0A%20%20%20%20return%20arr.join(%27&%27);%0D%0A%7D"
+[2019-12-25T11:02:47.399] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:3300
+[2019-12-25T11:02:55.851] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:3300
+[2019-12-25T16:15:42.260] [ERROR] error - ReferenceError: jsondata is not defined
+    at router.post (D:\WORK\DZPJ_WEB\dzpj_web\app\router\kpgl\skzp.js:74:3)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-25T16:16:57.308] [ERROR] error - ReferenceError: jsondata is not defined
+    at router.post (D:\WORK\DZPJ_WEB\dzpj_web\app\router\kpgl\skzp.js:74:3)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at next (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:45:18)
+    at D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:44:32)
+    at D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\WORK\DZPJ_WEB\dzpj_web\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2019-12-25T16:44:08.913] [ERROR] error - 【Post-Error-post】Error: connect ECONNREFUSED 127.0.0.1:3300

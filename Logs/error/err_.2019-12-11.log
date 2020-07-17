@@ -1,0 +1,17 @@
+[2019-12-11T16:41:06.050] [ERROR] error - ReferenceError: invoice_config is not defined
+    at router.post (C:\Users\wonders\Desktop\qqq\FPPT_KOA\app\api\invoice\ckdwsczt.js:21:5)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\wonders\Desktop\qqq\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)

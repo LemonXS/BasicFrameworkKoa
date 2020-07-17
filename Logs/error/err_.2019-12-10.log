@@ -1,0 +1,17 @@
+[2019-12-10T10:43:49.090] [ERROR] error - TypeError: Cannot read property 'query' of undefined
+    at router.get (D:\FPPT_KOA\FPPT_KOA\app\router\kpgl\skhp.js:19:29)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at next (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:45:18)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:44:32)
+    at D:\FPPT_KOA\FPPT_KOA\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\FPPT_KOA\FPPT_KOA\node_modules\koa\node_modules\koa-compose\index.js:42:32)
