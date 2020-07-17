@@ -14,7 +14,7 @@
     "cross-env": "5",
     "crypto": "^1.0.1",
     "debug": "^2.6.3",
-    "ejs": "~2.3.3",
+    "ejs": "~2.5.5",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.2.0",
     "koa-art-template": "^1.1.1",
